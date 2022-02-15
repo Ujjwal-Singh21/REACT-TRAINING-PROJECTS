@@ -1,11 +1,9 @@
-import React from 'react'
-export  default  class Success  extends React.Component {
+import React, { Component } from 'react'
 
-
-            render(){
-
-                return    <h1>Transaction Successfull</h1> 
-
-            }
-
+class Success extends Component {
+  render () {
+    return <h1> Transaction Successfull </h1>
+  }
 }
+
+export default Success

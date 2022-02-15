@@ -8,8 +8,8 @@ import UserList from './UserList'
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    {/* <List/>
-    <UserList/> */}
+    {/* <List/> */}
+    {/* <UserList/> */}
   </React.StrictMode>,
   document.getElementById('root')
 )
